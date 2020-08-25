@@ -3,7 +3,13 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  rabbitMq:{
+    host:"148.233.85.168",
+    wsPort: '5005',
+    wsPath: '/ws',
+    url: "ws://148.233.85.168:5005/ws"
+  }
 };
 
 /*
